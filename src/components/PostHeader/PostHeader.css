@@ -1,0 +1,49 @@
+.post-header {
+  display: flex;
+  width: 100%;
+  height: 150;
+  flex-direction: row;
+}
+
+.profile-div {
+  display: flex;
+  flex-direction: row;
+}
+
+.profile-picture {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 20px;
+  margin-left: 40px;
+  margin-right: 20px;
+}
+
+.profile_checked img {
+  width: 27px;
+  height: 27px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-top: 40px;
+}
+
+.profile_name {
+  color: white;
+  font-weight: bold;
+  margin-top: 40px;
+  font-size: 1.3em;
+}
+
+.profile_account {
+  font-weight: normal;
+  color: white;
+}
+
+.twitter-logo {
+  width: 45px;
+  height: 40px;
+  margin-left: 260px;
+  margin-top: 40px;
+  order: 2;
+}

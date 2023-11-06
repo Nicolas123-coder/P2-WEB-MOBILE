@@ -1,0 +1,83 @@
+.main-div {
+  display: flex;
+  background-color: white;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.post-container {
+  display: flex;
+  height: 150px;
+  width: 400px;
+  background-color: #3F3F3F;
+  border-radius: 30px;
+  flex-direction: column;
+}
+
+.post-info {
+  display: flex;
+  width: 100%;
+  height: 130px;
+  align-items: center;
+  margin-left: 40px;
+  font-size: 1.5em;
+}
+
+.post-datetime-info {
+  display: flex;
+  margin-left: 40px;
+  font-weight: normal;
+  color: #555;
+}
+
+.post-datetime-info strong {
+  font-weight: bold;
+  color: black;
+  margin-right: 3px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 20px 0;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.bookmarks {
+  display: flex;
+  margin-left: 40px;
+  font-weight: normal;
+  color: #555;
+}
+
+.bookmarks strong {
+  font-weight: bold;
+  margin-right: 3px;
+  color: black;
+}
+
+.like-icon.like-icon-red {
+  color: red;
+}
+
+.like-icon.like-icon-white {
+  color: white;
+  border: 1px solid #555;
+}
+
+.btn-container {
+  display: flex;
+  margin-left: 40px;
+}
+
+.btn {
+  font-size: large;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  outline: none;
+}
