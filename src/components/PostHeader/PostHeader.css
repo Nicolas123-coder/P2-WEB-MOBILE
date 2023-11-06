@@ -36,8 +36,9 @@
 }
 
 .profile_account {
+  font-size: small;
   font-weight: normal;
-  color: white;
+  color: lightgray;
 }
 
 .twitter-logo {
