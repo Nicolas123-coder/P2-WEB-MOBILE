@@ -1,6 +1,6 @@
 import React from "react";
 import "./PostHeader.css"
-import imagem from '../../images/img1.png';
+import imagem from '../../images/img4.png';
 
 function PostHeader(props) {
 

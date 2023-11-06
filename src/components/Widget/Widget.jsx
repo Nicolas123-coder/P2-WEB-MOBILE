@@ -1,16 +1,17 @@
 import React, { useState } from "react";
-import "./TwitterPost.css";
+import "./Widget.css";
 import PostHeader from "../PostHeader/PostHeader";
 import PostVerso from "../PostVerso/PostVerso";
 
 const post = {
   name: "John Doe",
   user: "johndoe@gmail.com",
+  followers: '5,4k',
+  following: '2,2k',
 };
 
-let numberOfLikes = 9634;
 
-function TwitterPost() {
+function Widget() {
   const [isFront, setIsFront] = useState(true);
 
   const handleClick = () => {
@@ -21,13 +22,13 @@ function TwitterPost() {
     <div className="main-div">
       <div className="post-container" onClick={handleClick}>
         {isFront ? (
-          <PostHeader name={post.name} user={post.user} checked={post.checked} />
+          <PostHeader name={post.name} user={post.user} following={post.following} followers={post.followers} />
         ) : (
-          <PostVerso/>
+          <PostVerso name={post.name} user={post.user} following={post.following} followers={post.followers}/>
         )}
       </div>
     </div>
   );
 }
 
-export default TwitterPost;
+export default Widget;

@@ -1,9 +1,9 @@
-import TwitterPost from "./components/TwitterPost/TwitterPost";
+import Widget from "./components/Widget/Widget";
 
 function App() {
   return (
     <div className="App">
-      <TwitterPost />
+      <Widget />
     </div>
   );
 }
