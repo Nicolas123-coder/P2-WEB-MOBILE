@@ -1,3 +1,6 @@
+//Nicolas de Barros - 32070837
+//Eric Dias Felipeli Cesar Dias Pereira - 41911296
+
 import React from "react";
 import "./PostHeader.css"
 import imagem from '../../images/img4.png';
